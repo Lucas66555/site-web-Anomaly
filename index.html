@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anomaly — le navigateur des communautés RP et SCP</title>
+<meta name="description" content="Anomaly est un navigateur Windows basé sur Chromium, pensé pour les communautés RP : tableau de bord serveur, base SCP, annuaire de serveurs Discord, sidebar personnalisable.">
+<meta name="theme-color" content="#0d0e12">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Anomaly — le navigateur des communautés RP et SCP">
+<meta property="og:description" content="Un navigateur Windows basé sur Chromium, avec tableau de bord serveur RP, base SCP et annuaire de serveurs Discord.">
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="lien-evitement" href="#contenu">Aller au contenu</a>
+
+  <header class="entete">
+    <div class="conteneur entete-interieur">
+      <a class="marque" href="#haut" aria-label="Anomaly, retour en haut">
+        <img src="logo.svg" alt="" width="32" height="32">
+        <span>Anomaly</span>
+      </a>
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="#fonctionnalites">Fonctionnalités</a>
+        <a href="#installation">Installation</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="bouton bouton-petit" href="#installation" data-download><span class="label">Télécharger</span></a>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="hero" id="haut">
+      <div class="conteneur hero-grille">
+        <div class="hero-texte">
+          <p class="surtitre">Navigateur pour Windows · basé sur Chromium</p>
+          <h1>Le navigateur pensé pour les <span class="accent">communautés RP</span></h1>
+          <p class="chapeau">Anomaly réunit ton serveur RP, la base SCP, tes serveurs Discord et tes liens favoris dans une interface sombre et rapide, construite sur le moteur de Chrome.</p>
+          <div class="hero-actions">
+            <a class="bouton" href="#installation" data-download><span class="label">Télécharger Anomaly</span></a>
+            <a class="bouton bouton-discret" href="#fonctionnalites">Voir les fonctionnalités</a>
+          </div>
+          <p class="meta-telechargement">
+            Version <span data-version>—</span> · Windows 10 / 11
+            <span data-size-wrap hidden> · <span data-size></span></span>
+            <span data-date-wrap hidden> · sortie le <span data-date></span></span>
+          </p>
+          <p class="note-os" id="note-os" hidden>Anomaly n’est disponible que pour Windows pour l’instant : il n’existe pas encore d’installateur pour ton système.</p>
+          <noscript><p class="note-os">Active JavaScript pour afficher le lien de téléchargement.</p></noscript>
+        </div>
+
+        <div class="hero-visuel">
+          <div class="mock" aria-hidden="true">
+            <div class="mock-onglets">
+              <span class="mock-onglet actif">Accueil</span>
+              <span class="mock-onglet">SCP</span>
+              <span class="mock-onglet">Discord</span>
+              <span class="mock-plus">+</span>
+            </div>
+            <div class="mock-barre"><span class="mock-rond"></span><span class="mock-rond"></span><span class="mock-adresse"></span></div>
+            <div class="mock-corps">
+              <div class="mock-sidebar"><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="mock-contenu">
+                <div class="mock-statut"><span class="mock-point"></span><span class="mock-ligne long"></span></div>
+                <div class="mock-cartes"><b></b><b></b><b></b><b></b><b></b><b></b></div>
+              </div>
+            </div>
+          </div>
+          <p class="legende">Illustration de l’interface — ce n’est pas une capture d’écran.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="fonctionnalites">
+      <div class="conteneur">
+        <h2>Ce qu’Anomaly sait faire aujourd’hui</h2>
+        <p class="intro-section">Uniquement des fonctions déjà présentes dans la version actuelle.</p>
+        <div class="grille-cartes">
+          <article class="carte reveal">
+            <span class="icone-carte" aria-hidden="true">🖥️</span>
+            <h3>Tableau de bord serveur RP</h3>
+            <p>La page d’accueil affiche l’état de ton serveur (en ligne, joueurs) à partir d’une adresse d’API que tu renseignes toi-même, plus des cartes de liens : règlement, wiki, carte, factions…</p>
+          </article>
+          <article class="carte reveal">
+            <span class="icone-carte" aria-hidden="true">📚</span>
+            <h3>Base de données SCP</h3>
+            <p>Recherche par numéro ou mot-clé, filtre par classe, favoris et historique des fiches consultées. Quelques entrées d’exemple sont fournies, à remplacer par tes propres données.</p>
+          </article>
+          <article class="carte reveal">
+            <span class="icone-carte" aria-hidden="true">💬</span>
+            <h3>Annuaire de serveurs Discord</h3>
+            <p>Ajoute tes serveurs RP avec leur pays, leur langue et leur catégorie, puis retrouve-les par recherche, filtre ou favoris. L’annuaire est vide au départ : il est à toi.</p>
+          </article>
+          <article class="carte reveal">
+            <span class="icone-carte" aria-hidden="true">🧭</span>
+            <h3>Sidebar personnalisable</h3>
+            <p>Ajoute, modifie, supprime et réordonne tes raccourcis (Discord, wiki, forum, YouTube…), et réduis la barre quand tu veux plus de place.</p>
+          </article>
+          <article class="carte reveal">
+            <span class="icone-carte" aria-hidden="true">♻️</span>
+            <h3>Session restaurée</h3>
+            <p>Tes onglets sont sauvegardés automatiquement et rouverts au prochain lancement, y compris les onglets épinglés et l’onglet actif.</p>
+          </article>
+          <article class="carte reveal">
+            <span class="icone-carte" aria-hidden="true">🖱️</span>
+            <h3>Menu clic droit complet</h3>
+            <p>Retour, actualiser, enregistrer la page, imprimer, code source, outils développeur, et des actions dédiées pour les liens, images et textes sélectionnés.</p>
+          </article>
+          <article class="carte reveal">
+            <span class="icone-carte" aria-hidden="true">⬇️</span>
+            <h3>Téléchargements, favoris, historique</h3>
+            <p>Un gestionnaire de téléchargements avec progression et vitesse, des favoris et un historique conservés en local sur ton ordinateur.</p>
+          </article>
+          <article class="carte reveal">
+            <span class="icone-carte" aria-hidden="true">🧩</span>
+            <h3>Extensions Chromium</h3>
+            <p>Charge une extension non empaquetée ou un fichier .crx. La compatibilité n’est pas garantie : beaucoup d’extensions du Chrome Web Store utilisent des fonctions que le navigateur n’implémente pas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="feuille-de-route">
+      <div class="conteneur">
+        <h2>Pas encore là</h2>
+        <p class="intro-section">Ces fonctions sont prévues mais ne sont pas disponibles dans la version actuelle.</p>
+        <ul class="liste-bientot">
+          <li>Bloqueur de publicités et de traqueurs</li>
+          <li>Actualités gaming et RP par flux RSS</li>
+          <li>Mini-jeu SCP hors ligne</li>
+          <li>Interface en plusieurs langues (le français uniquement pour l’instant)</li>
+          <li>Installateurs pour macOS et Linux</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="installation">
+      <div class="conteneur etroit">
+        <h2>Installer Anomaly</h2>
+        <ol class="etapes">
+          <li>
+            <h3>Télécharge l’installateur</h3>
+            <p>Clique sur le bouton ci-dessous. Le fichier s’appelle <code>Anomaly-Setup</code> et se termine par <code>.exe</code>.</p>
+            <p><a class="bouton" href="#installation" data-download><span class="label">Télécharger Anomaly</span></a></p>
+          </li>
+          <li>
+            <h3>Lance-le</h3>
+            <p>Double-clique sur le fichier téléchargé et suis l’assistant : tu peux choisir le dossier d’installation et créer un raccourci sur le Bureau. L’installation se fait pour ton compte utilisateur.</p>
+          </li>
+          <li>
+            <h3>Si Windows affiche un avertissement</h3>
+            <p>L’installateur n’est pas encore signé numériquement (un certificat de signature est payant). Windows SmartScreen peut donc afficher « Windows a protégé votre ordinateur ». Si tu as téléchargé le fichier depuis cette page, clique sur <strong>Informations complémentaires</strong>, puis sur <strong>Exécuter quand même</strong>.</p>
+          </li>
+        </ol>
+
+        <div class="verification" id="verification" hidden>
+          <h3>Vérifier ton fichier (facultatif)</h3>
+          <p>Compare l’empreinte SHA-256 de ton téléchargement avec celle-ci. Si elles diffèrent, ne lance pas le fichier.</p>
+          <div class="sha-ligne">
+            <code id="sha-valeur"></code>
+            <button type="button" class="bouton bouton-petit bouton-discret" id="sha-copier">Copier</button>
+          </div>
+          <p class="aide">Sous Windows, ouvre un terminal dans ton dossier de téléchargements et tape : <code>certutil -hashfile Anomaly-Setup-1.0.0.exe SHA256</code></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="faq">
+      <div class="conteneur etroit">
+        <h2>Questions fréquentes</h2>
+        <details>
+          <summary>Anomaly est-il un produit officiel de la SCP Foundation ?</summary>
+          <p>Non. Anomaly est un projet indépendant, sans lien avec la SCP Foundation ni avec ses auteurs. Les fiches SCP d’exemple s’inspirent de contenus du SCP Wiki, publiés sous licence Creative Commons BY-SA 3.0 (voir les <a href="mentions.html">mentions</a>).</p>
+        </details>
+        <details>
+          <summary>Où sont stockées mes données ?</summary>
+          <p>Favoris, historique, réglages et session restent sur ton ordinateur. Anomaly n’a ni compte utilisateur ni synchronisation en ligne. Les sites que tu visites, eux, fonctionnent comme dans n’importe quel navigateur.</p>
+        </details>
+        <details>
+          <summary>Pourquoi Windows m’avertit-il au lancement de l’installateur ?</summary>
+          <p>Parce que le fichier n’est pas signé numériquement. Ce n’est pas une preuve qu’il est dangereux, mais c’est une raison de ne le télécharger que depuis cette page, et de comparer l’empreinte SHA-256 si elle est affichée plus haut.</p>
+        </details>
+        <details>
+          <summary>Mes extensions Chrome fonctionneront-elles ?</summary>
+          <p>Peut-être. Anomaly charge les extensions Chromium non empaquetées, mais beaucoup d’extensions du Chrome Web Store utilisent des fonctions absentes de ce navigateur, surtout les plus récentes (Manifest V3). Il faut les essayer une par une.</p>
+        </details>
+        <details>
+          <summary>Existe-t-il une version Mac ou Linux ?</summary>
+          <p>Pas pour l’instant : seul l’installateur Windows est proposé.</p>
+        </details>
+        <details>
+          <summary>Comment le désinstaller ?</summary>
+          <p>Comme n’importe quel logiciel : Paramètres Windows → Applications → Anomaly → Désinstaller.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pied">
+    <div class="conteneur pied-interieur">
+      <p>© <span id="annee"></span> Anomaly — projet indépendant, non affilié à la SCP Foundation.</p>
+      <p><a href="mentions.html">Mentions légales et licences</a></p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

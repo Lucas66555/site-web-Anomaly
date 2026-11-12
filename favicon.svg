@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Logo Anomaly">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b1c20"/>
+      <stop offset="100%" stop-color="#0d0e12"/>
+    </linearGradient>
+  </defs>
+  <polygon points="128,8 241,72 241,184 128,248 15,184 15,72" fill="url(#g)" stroke="#e0263f" stroke-width="8"/>
+  <circle cx="128" cy="128" r="54" fill="none" stroke="#e0263f" stroke-width="10"/>
+  <circle cx="128" cy="128" r="14" fill="#e0263f"/>
+  <path d="M128 60 L128 86 M128 170 L128 196 M60 128 L86 128 M170 128 L196 128" stroke="#e0263f" stroke-width="8" stroke-linecap="round"/>
+</svg>
