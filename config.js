@@ -9,7 +9,7 @@ window.ANOMALY_CONFIG = {
   // Exemple GitHub Releases :
   //   https://github.com/TON-PSEUDO/anomaly/releases/download/v1.0.0/Anomaly-Setup-1.0.0.exe
   // Tant que ce champ est vide, le bouton affiche « Bientôt disponible ».
-  downloadUrl: "",
+  downloadUrl: "https://github.com/Lucas66555/anomaly-releases/releases/tag/v1.0.0",
 
   // Empreinte SHA-256 du fichier (facultatif mais recommandé : elle permet aux
   // visiteurs de vérifier que le fichier n'a pas été modifié).
